@@ -1,9 +1,9 @@
 {% extends 'core/base.html'%}
 
-{% block title %} Contact{% endblock %}
+{% block title %} Contact {% endblock %}
 
 {%  block content %}
-<h1> The Contact page</h1>
+<h1 style="color: #ddf1f1; text-align: center; font-size: 80px;">Let us know what you want</h1>
 <div class="background flex justify-center items-center min-h-screen p-4">
     <div class="contact-form bg-white p-6 rounded-lg shadow-lg max-w-md w-full">
         <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
@@ -28,8 +28,8 @@
                 <textarea id="message" name="message" placeholder="Type your query here" class="w-full p-2 border border-gray-300 rounded-md"></textarea>
             </div>
             
-            <button type="submit" class="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600">Submit</button>
+            <button a href="mailto:sureshravan78@gmail .com" type="submit" class="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600">Submit</button>
         </form>
-    </div>
+        </div>
 </div>
 {% endblock%}

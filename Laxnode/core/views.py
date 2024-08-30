@@ -9,8 +9,8 @@ def contact(request):
 def about(request):
     return render(request,'core/about.html')
 
-def work(request):
-    return render(request,'core/work.html')
+def service(request):
+    return render(request,'core/service.html')
 
 def achievements(request):
     return render(request,'core/achievements.html')
